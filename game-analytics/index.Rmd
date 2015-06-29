@@ -17,7 +17,7 @@ revealjs:
 <!--
 2015-06-02
 FU Berlin
-
+Malte Thiede
 -->
 
 <!-- adjust background for "intro" slides -->
