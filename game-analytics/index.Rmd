@@ -50,6 +50,14 @@ background-size: 100%;
 .reveal h2, .reveal h3 {color: #222222;}
 </style>
 
+<style>
+.gif150
+{
+  width: 150%;
+  height: auto;
+}
+</style>
+
 --- ds:ubi
 
 ## Ubisoft Blue Byte
@@ -90,7 +98,7 @@ background-size: 100%;
 
 ***
 
-<img src="assets/img/dontworry.jpg" />
+<img src="assets/img/dontworry.jpg" class="gif150" />
 
 ***
 
@@ -122,7 +130,7 @@ Southpark, [Season 18, Episode 6](http://southpark.cc.com/full-episodes/s18e06-f
 
 ***
 
-<img src="assets/img/archer-slap.gif" />
+<img src="assets/img/archer-slap.gif" class="gif150" />
 
 ***
 
@@ -238,7 +246,7 @@ Data Scientist: the sexiest job of the 21st century,
 
 ## ...questions?
 
-<img src="assets/img/cat-menacing.gif" />
+<img src="assets/img/cat-menacing.gif" class="gif150" />
 
 
 ---
