@@ -75,7 +75,7 @@ background-size: 100%;
   - mail: christoph.safferling@ubisoft.com
   - LinkedIn: https://www.linkedin.com/in/safferling 
   - Twitter: [@safferli](https://twitter.com/safferli) 
-  - Github: [@safferli](https://github.com/safferli); 
+  - Github: [@safferli](https://github.com/safferli)
   - this talk: https://github.com/safferli/introduction_gameanalytics
   
 
