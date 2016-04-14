@@ -137,7 +137,7 @@ Southpark, [Season 18, Episode 6](http://southpark.cc.com/full-episodes/s18e06-f
 ### Why will you want data? 
 
 - market estimation/business case
-  - *"even if you are prepared to wait for two and a half years to see the money come in, 69% of indie games are going to lose money"* [Cliff Harris](http://positech.co.uk/cliffsblog/2016/01/06/random-but-fun-indie-game-data-sampling/)
+  - *"even if you are prepared to wait for two and a half years to see the money come in, 69% of indie games are going to lose money"* -- [Cliff Harris](http://positech.co.uk/cliffsblog/2016/01/06/random-but-fun-indie-game-data-sampling/)
   - no business case, no money
 - game design 
   - confirm your expectations/calculations
