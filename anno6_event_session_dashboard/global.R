@@ -19,7 +19,7 @@ library(stringr)
 library(readr)
 library(reshape2)
 
-setwd("D:/github/introduction_gameanalytics/anno6_event_session_dashboard/")
+setwd("C:/github/introduction_gameanalytics/anno6_event_session_dashboard/")
 
 
 ##############

@@ -38,7 +38,8 @@ shinyServer(function(input, output, session) {
       group_by(mission_location, mission_objective, assassin_class, mission_status) %>%
       summarize(N = n()) %>%
       spread(mission_status, N) %>%
-      mutate(win_ratio = Won / (Won + Lost), N = Won + Lost, N = ifelse(is.na(N), 0, N)) %>%
+      #mutate(win_ratio = Won / (Won + Lost), N = Won + Lost, N = ifelse(is.na(N), 0, N)) %>%
+      mutate(win_ratio = Won / (Won + Lost), N = Won + Lost, na_if(N, 0)) %>%
       select(mission_location, mission_objective, assassin_class, N, win_ratio) %>%
       filter(N != 0) %>%
       filter(N >= input$cutoff_heatmap)
@@ -58,13 +59,15 @@ shinyServer(function(input, output, session) {
 
   output$plot_win_rate_by_hireling_class <- renderPlot({
     tmp <- df_data() %>%
+      # tmp <- df_raw %>% 
       filter(mission_status != "Started") %>%
       filter(mission_type == "Random") %>%
       filter(!is.na(hireling_class)) %>%
       group_by(mission_location, mission_objective, hireling_class, mission_status) %>%
       summarize(N = n()) %>%
       spread(mission_status, N) %>%
-      mutate(win_ratio = Won / (Won + Lost), N = Won + Lost, N = ifelse(is.na(N), 0, N)) %>%
+      #mutate(win_ratio = Won / (Won + Lost), N = Won + Lost, N = ifelse(is.na(N), 0, N)) %>%
+      mutate(win_ratio = Won / (Won + Lost), N = Won + Lost, N = na_if(N, 0)) %>%
       select(mission_location, mission_objective, hireling_class, N, win_ratio) %>%
       filter(N != 0) %>%
       filter(N >= input$cutoff_heatmap)

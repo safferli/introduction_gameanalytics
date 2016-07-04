@@ -11,7 +11,7 @@ library(ggplot2)
 library(grid)
 # library(xlsx)
 
-setwd("D:/github/introduction_gameanalytics/acid_mission_dashboard/")
+setwd("C:/github/introduction_gameanalytics/acid_mission_dashboard/")
 load("acid_mission_dashboard.Rda")
 # setwd("/var/analytics/apps/acid_mission_dashboard/")
 # load("/var/analytics/data/acid_mission_dashboard.Rda")
