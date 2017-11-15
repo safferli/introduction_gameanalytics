@@ -39,7 +39,7 @@ background-size: 100%;
   Christoph Safferling
 </p>
 <p style="font-size: 80%; margin: 3% 0 0 0; color: #222222;">
-  Head of Game Analytics <br/ > 
+  Head of Game Analytics and User Research<br/ > 
   Ubisoft Blue Byte
 </p>
 
@@ -60,21 +60,22 @@ background-size: 100%;
 
 --- ds:ubi
 
-## Ubisoft Blue Byte
+<img src="assets/img/BB_logo_blue_RGB_72dpi_2017.png" style="border:none; box-shadow: none; width: 80%; heigth: auto;" />
 
 - founded in 1988, best known for the *Settlers* and *Anno* brand
 - fully acquired by Ubisoft in 2001
 - online games since 2010
-- newest title: [Anno 2205]
-  (http://anno-game.ubi.com/anno-2205/de-de/game-info/anno-2205/index.aspx) 
-  (PC)
+- co-development on For Honor™, Rainbow Six® Siege, and Skull & Bones™
+- newest announced project: [Anno 1800™](https://www.ubisoft.com/de-de/game/anno-1800/)
+
+
 
 
 ---
 
 ## Christoph Safferling
 
-- since 2012: Head of Game Analytics at Blue Byte
+- since 2012: Head of Game Analytics and User Research at Blue Byte
 - PhD in economics: [Three Essays on the Economics of Online Games]
   (http://kops.uni-konstanz.de/handle/123456789/17259?locale-attribute=en)
 - research specialties: personnel economics, incentive theory, industrial organisation
@@ -82,8 +83,7 @@ background-size: 100%;
 - contact:
   - mail: christoph.safferling@ubisoft.com
   - LinkedIn: https://www.linkedin.com/in/safferling 
-  - Twitter: [@safferli](https://twitter.com/safferli) 
-  - Github: [@safferli](https://github.com/safferli)
+  - Github: [@safferli](https://github.com/safferli); Twitter: [@safferli](https://twitter.com/safferli) 
   - this talk: https://github.com/safferli/introduction_gameanalytics
   
 
@@ -137,7 +137,7 @@ Southpark, [Season 18, Episode 6](http://southpark.cc.com/full-episodes/s18e06-f
 ### Why will you want data? 
 
 - market estimation/business case
-  - *"even if you are prepared to wait for two and a half years to see the money come in, 69% of indie games are going to lose money"* -- [Cliff Harris](http://positech.co.uk/cliffsblog/2016/01/06/random-but-fun-indie-game-data-sampling/)
+  - *"even if you are prepared to wait for two and a half years to see the money come in, 69% of indie games are going to lose money"* -- [Cliff Harris](http://positech.co.uk/cliffsblog/2016/01/06/random-but-fun-indie-game-data-sampling/), Jan 2016
   - no business case, no money
 - game design 
   - confirm your expectations/calculations
